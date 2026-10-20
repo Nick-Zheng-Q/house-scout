@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "record_type": "pre-publication verification snapshot",
+  "prepared_utc": "2026-10-20T05:20:00.288448+00:00",
+  "publication_status": "prepared_not_published",
+  "python_tests": {
+    "total": 76,
+    "passed": 76,
+    "exit_code": 0,
+    "scope": "69 existing +7 packaging/demo tests; clean public-source execution, not76live housing tests"
+  },
+  "installer": {
+    "exit_code": 0,
+    "checks": [
+      "clean_install",
+      "update_backup",
+      "overwrite_refusal",
+      "rollback_after_injected_failure",
+      "sh_entrypoints_without_executable_bits"
+    ]
+  },
+  "demo_replay": {
+    "exit_code": 0,
+    "network": false,
+    "cases": 3,
+    "personas": "illustrative, not real customers",
+    "results": [
+      "verify",
+      "reject",
+      "reject"
+    ],
+    "actual_signing_timing": "unknown; separate conditional cash scenario"
+  },
+  "skills_cli": {
+    "version": "1.7.4",
+    "local_list_exit_code": 0,
+    "local_clean_subdirectory_install_exit_code": 0,
+    "installed_files": 44,
+    "private_files_copied": false,
+    "telemetry_disabled": true,
+    "public_github_install_verified": false,
+    "skills_sh_indexed": false
+  },
+  "claude": {
+    "version": "2.1.198",
+    "plugin_strict_exit_code": 0,
+    "marketplace_strict_exit_code": 0,
+    "isolated_install_exit_code": 0,
+    "isolated_list_exit_code": 0,
+    "official_directory_approved": false
+  },
+  "openai": {
+    "portable_schema_validation_exit_code": 0,
+    "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "requires_local_executor": true,
+    "mcp_server": false,
+    "portal_uploaded": false,
+    "approved": false
+  },
+  "safety": {
+    "gitleaks_version": "8.30.1",
+    "public_tree_scan_exit_code": 0,
+    "findings": 0,
+    "core_helper_hashes_unchanged": 6,
+    "raw_research_published": false,
+    "known_scope": "Local/public-tree checks; not a comprehensive vulnerability or real-world housing-safety audit."
+  },
+  "benchmarks": {
+    "existing_scenarios": 24,
+    "original_date_current_priced_plans_complete": 4,
+    "complete_ids": [
+      "munich",
+      "eindhoven",
+      "osaka",
+      "boston"
+    ],
+    "new_live_rental_availability_guarantee": false,
+    "amsterdam_initial_pass_withdrawn": true
+  },
+  "remaining": [
+    "Public GitHub/tag/Release and remote install await approval",
+    "OpenAI identity/portal checks not completed",
+    "Claude official Directory may require existing paid-plan permissions; no purchases authorized",
+    "No eligible Awesome submission yet; maturity/usage or human-only rules apply",
+    "No X/Reddit/HN publishing authentication; generated drafts not posted"
+  ]
+}

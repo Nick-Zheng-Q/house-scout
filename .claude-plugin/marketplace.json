@@ -1,0 +1,14 @@
+{
+  "description": "Evidence-based housing research by Dayweaver",
+  "name": "house-scout-marketplace",
+  "owner": {
+    "name": "Dayweaver"
+  },
+  "plugins": [
+    {
+      "description": "Research and compare specific homes: local listing searches, layout fit, declared costs, dated transit evidence and named amenities. Keep missing evidence explicit; no booking or payment. Requires host-authorized research tools and Python for bundled helpers.",
+      "name": "house-scout",
+      "source": "./plugins/house-scout"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Dayweaver",
+    "url": "https://dayweaver.site/"
+  },
+  "description": "Research and compare specific homes: local listing searches, layout fit, declared costs, dated transit evidence and named amenities. Keep missing evidence explicit; no booking or payment. Requires host-authorized research tools and Python for bundled helpers.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Compare housing evidence"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "Compare these homes: check layouts, costs, commutes and nearby amenities. Cite sources and flag unknowns."
+        ],
+        "developerName": "Dayweaver",
+        "displayName": "House Scout",
+        "logo": "./assets/icon.svg",
+        "longDescription": "Research and compare specific homes: local listing searches, layout fit, declared costs, dated transit evidence and named amenities. Keep missing evidence explicit; no booking or payment. Requires host-authorized research tools and Python for bundled helpers. 4/24 current-priced dated commute plans complete; not globally verified available housing.",
+        "shortDescription": "Compare homes with evidence",
+        "supportURL": "https://github.com/Nick-Zheng-Q/house-scout/issues",
+        "websiteURL": "https://github.com/Nick-Zheng-Q/house-scout"
+      },
+      "requires_local_executor": true
+    }
+  },
+  "homepage": "https://github.com/Nick-Zheng-Q/house-scout",
+  "keywords": [
+    "housing",
+    "rental",
+    "home-search",
+    "relocation",
+    "commute",
+    "decision-support"
+  ],
+  "license": "PolyForm-Shield-1.0.0",
+  "name": "house-scout",
+  "repository": "https://github.com/Nick-Zheng-Q/house-scout",
+  "version": "1.0.0"
+}

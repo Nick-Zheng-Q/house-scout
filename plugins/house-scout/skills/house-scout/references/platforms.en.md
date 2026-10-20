@@ -1,0 +1,38 @@
+# Specific platforms, entry points, and search steps
+
+First establish the **city/country, rent or buy, acceptable areas, hard budget, minimum bedrooms, move-in/completion date, and regular destinations**. The entry points below were checked on 2026-09-28; they do not guarantee local coverage, accessibility, or a live listing. Use only the section for the property's market. Do not transfer one country's tax, area, or lease conventions to another. Do not bypass login walls or CAPTCHAs; switch public sources or mark the gap.
+
+## Mainland China: find individual listings, then verify the publisher
+
+| Task | Platform and entry | Exact site search | What to capture / next step |
+| --- | --- | --- | --- |
+| Initial rental, resale, or new-home search | [Beike city selector](https://www.ke.com/city/) → city → 租房 (rent), 二手房 (resale), 新房 (new) | Search **district, commercial area, metro station, or compound**; filter whole-unit/shared, maximum rent/price, bedrooms/area; use map or newest listings. Open the individual listing, not just the compound page | Listing ID, price, plan/floor, publisher, update date; verify current terms for that unit |
+| Cross-check resale/rentals | [Lianjia](https://www.lianjia.com/) → city and category | Repeat area/compound, budget, bedrooms; compare listing ID, floor, area, photos, price. **Beike and Lianjia may carry the same unit** | Preserve conflicting details; a platform label is not proof of title or pet permission |
+| Broaden publisher coverage | [Anjuke](https://www.anjuke.com/), [Fang.com](https://www.fang.com/), [58 housing](https://www.58.com/house/) | City→rent/resale/new→district or station, budget, bedrooms; favor recent postings and open listing/publisher details | Find units and owner-direct leads missing elsewhere; especially verify authority, condition, and payee for individual postings |
+| Operator-managed rentals | [Ziroom Apartments](https://apartment.ziroom.com/), [Longfor Guanyu](https://iguanyu.com/) (select city→找房→district→store→room type), and local operator sites/apps; use the current official site/app for other Ziroom products | Search the **specific building/unit**, whole/shared use, term, move-in date, and service fees—not just a brand or starting price | Check that operator's current availability, full fees, and exit terms for the unit |
+| Public/eligibility-based housing, if relevant | City's **housing/construction or housing-security department**; e.g. [Shenzhen housing-security service](https://zjj.sz.gov.cn/ztfw/zfbz/) | Search `[city] 住房保障 保障性租赁住房/公租房 配租/认租/房源明细 [year]`; follow the **current notice, project/unit type, application entry, eligibility** | A notice may identify only a project or unit type before allocation; do not treat unapproved benefits as base-price reductions |
+
+Do not mechanically search every site. For each acceptable area, use **one principal listing site plus a meaningfully different publisher channel**, then pursue operator, owner, or public-housing leads that could change the answer. Deduplicate Beike/Lianjia overlap. A new-home project with only a starting price or show-flat plan remains a lead until a particular unit/offer is identified.
+
+## Outside mainland China
+
+Read the matching country/jurisdiction row in [international market guidance](international-markets.en.md): US, UK, Canada, Australia, New Zealand, Singapore, Hong Kong, Japan, Germany, France, Netherlands, and an explicit discovery process for other markets. Each row gives named portals, site operations, native-language query examples, layout traps, local cost fields and transport/official sources. Do not default an English request to the US/UK. Normalize periods and cash using [cost comparison](cost-comparison.en.md).
+
+## Repeatable search sequence
+
+1. **Start from destinations.** Use [Amap](https://www.amap.com/) or [Baidu Maps](https://map.baidu.com/) in mainland China, or [Google Maps](https://www.google.com/maps) plus local transit operators elsewhere, to identify plausible stations and neighborhoods at the user's target arrival time. This defines a **search area**, not a verified commute for any home.
+2. **Search broadly within each platform.** Select city→rent/buy→each acceptable area or station→hard filters only (budget ceiling, minimum bedrooms, whole-unit requirement). Review newest/map results. Do not initially combine every soft term (pets, quiet, sunlight, orientation), which can hide valid units.
+3. **Supplement with search-engine queries.** Examples: `site:ke.com [city] [district/station] 整租 两居`, `site:anjuke.com [city] [compound] [beds] 租房`, `site:fang.com [city] [compound] 二手房`, `[operator] [building] [unit type] fees`. Search snippets discover leads only; open the **unit's current detail page**.
+4. **Deduplicate and trace back.** Compare compound/building, floor, area, orientation, photos, and listing ID. Merge duplicate postings while retaining conflicting prices, deposits, and pet rules. Verify operator supply on its own site, public supply in the current official notice, and title/eligibility separately.
+5. **Add location facts.** For every retained unit, route from the building entrance to **each destination** at the user's travel time; record door-to-door minutes and fare. Search nearby `market/supermarket/pharmacy/hospital/park/mall` around the building, recording named places and actual walking times. Unknown fares or opening hours remain unknown.
+
+Report **city × area × platform/channel × query/filter × search date × individual listings/unchecked leads**, rather than merely saying “multiple platforms searched.” Recheck links and content at use time.
+
+## When a page is unavailable
+
+- Follow the city's visible rent/buy link to obtain the actual entry; do not invent city subdomains or paths. For an ordinary timeout or a JavaScript shell, try one authorized browser visit and inspect the visible page; if unsuccessful, record it and switch independent sources.
+- **Explicit automation blocks, CAPTCHAs, and login walls are not timeouts.** Stop the restricted source; do not change domain, client, or session to evade it, log in automatically, or solve a CAPTCHA. Preserve public leads and use another publisher; leave restricted checks for the user.
+- Inspect the detail's whole-unit/shared field, not its headline. Check the actual city/district/address or station identity too: a building name or a similarly named station does not establish the requested location. A unit-looking URL that redirects to a building list remains a lead, not a new unit. A one-bedroom result may be a shared bedroom. Operator starting/promotional prices, occupancy status, and room-type areas apply only to their displayed scope. Without a target room, move-in date, and term-specific quote, keep it as a lead. A studio is not necessarily a separate-bedroom home; list shared kitchens explicitly.
+- Record **access date, search-engine crawl date, listing publication/update date, and move-in date** separately. Opening an old page today does not prove current availability. Preserve differences between a snippet and the current detail instead of combining them into current terms.
+
+Executable example (Hangzhou rentals; copy the queries, not the results as recommendations): select Hangzhou→Binjiang or Yuhang→整租→1室→budget. If site navigation is unavailable, search `site:fang.com 杭州 滨江 整租 1室` and `site:fang.com 杭州 余杭 整租 1室`. On Guanyu select Hangzhou→找房→each district, open stores and room types/occupancy status; request a target room, independent kitchen, written cat permission, move-in date, and full six-month quote. The [Hangzhou store list](https://iguanyu.com/hz/houselist) was readable on 2026-09-30 but does not establish that any room meets those conditions.

@@ -1,0 +1,384 @@
+{
+  "audit_date_utc": "2026-10-20",
+  "scope": "Independent property/layout/amenity verification only; no new commute tests; no publication",
+  "personas": "All sample conditions, not real customers or testimonials",
+  "sources": [
+    {
+      "id": "US1",
+      "url": "https://mahogany.managebuilding.com/Resident/public/rentals/79915",
+      "publisher": "Thayer & Associates / Buildium",
+      "retrieved_at_utc": "2026-10-20T01:14:37+00:00",
+      "retrieval_method": "ordinary anonymous HTTPS GET 200 and public web tool",
+      "direct_http_status": 200,
+      "facts_used": "Unit 21; 1 bed, 1 bath, 592 sqft; advertised USD 2700/month; available 2026-11-01; no broker fee; basement laundry",
+      "copyright_attribution": "Thayer & Associates / Buildium; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "ordinary_get_checked_at_utc": "2026-10-20T01:14:37+00:00",
+      "retrieved_at_utc_note": "This timestamp is the ordinary GET check; full public web-tool facts were observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "US2",
+      "url": "https://www.thayerassociates.com/blog/announcing-permanent-financing-for-1558-massachusetts-ave-cambridge-ma/",
+      "publisher": "Thayer & Associates",
+      "retrieved_at_utc": "2026-10-20T01:14:39+00:00",
+      "retrieval_method": "ordinary anonymous HTTPS GET 200 and public web tool",
+      "direct_http_status": 200,
+      "facts_used": "Building has 31 apartments and five stories; historic account of property-management role, not current title verification",
+      "copyright_attribution": "Thayer & Associates; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "ordinary_get_checked_at_utc": "2026-10-20T01:14:39+00:00",
+      "retrieved_at_utc_note": "This timestamp is the ordinary GET check; full public web-tool facts were observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "US3",
+      "url": "https://harvardsquare.com/about-harvard-square/",
+      "publisher": "Harvard Square Business Association",
+      "retrieved_at_utc": "2026-10-20T01:15:06Z",
+      "retrieval_method": "public web tool",
+      "direct_http_status": "not separately requested",
+      "facts_used": "Named commercial district contains shops, cafés and bookstores; no claimed access time",
+      "copyright_attribution": "Harvard Square Business Association; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "retrieved_at_utc_note": "Audit-record timestamp; web facts observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "JP1",
+      "url": "https://www.housecom.jp/room_4238537/",
+      "publisher": "Housecom, Minamimorimachi branch",
+      "retrieved_at_utc": "2026-10-20T01:14:45+00:00",
+      "retrieval_method": "public web tool opened full text; separate ordinary GET returned 403 and was not bypassed",
+      "direct_http_status": "error",
+      "facts_used": "1105, 11th floor, 2K, 31.77 sqm; JPY 98000 rent +12000 common charge monthly; two-year term; updated 2026-10-15; advertised immediate availability; key 33000; initial guarantor 33660; renewal 122500; monthly guarantor 1% of total rent",
+      "copyright_attribution": "Housecom, Minamimorimachi branch; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "ordinary_get_checked_at_utc": "2026-10-20T01:14:45+00:00",
+      "retrieved_at_utc_note": "This timestamp is the ordinary GET check; full public web-tool facts were observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "JP2",
+      "url": "https://www.housecom.jp/room_4303019/",
+      "publisher": "Housecom, Tenroku branch",
+      "retrieved_at_utc": "2026-10-20T01:14:46+00:00",
+      "retrieval_method": "public web tool opened full text; separate ordinary GET returned 403 and was not bypassed",
+      "direct_http_status": "error",
+      "facts_used": "Different anonymous 10th-floor 1K 22.55 sqm; opened page masks prices and unit ID with ***; search-index monetary amounts must not be used as a current offer",
+      "copyright_attribution": "Housecom, Tenroku branch; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "ordinary_get_checked_at_utc": "2026-10-20T01:14:46+00:00",
+      "retrieved_at_utc_note": "This timestamp is the ordinary GET check; full public web-tool facts were observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "JP3",
+      "url": "https://realestate.yahoo.co.jp/catalog/detail/c6c7d7c130310a3dfd0338a257b33392385a2c4c/",
+      "publisher": "LINE Yahoo! Real Estate",
+      "retrieved_at_utc": "2026-10-20T01:15:06Z",
+      "retrieval_method": "public web search result; historical building catalog",
+      "direct_http_status": "not separately requested",
+      "facts_used": "Building identity/address: Osaka Kita-ku Taiyujicho 3-30; catalog, not offer or current vacancy proof",
+      "copyright_attribution": "LINE Yahoo! Real Estate; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "retrieved_at_utc_note": "Audit-record timestamp; web facts observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "JP4",
+      "url": "https://store.lifecorp.jp/detail/west237/",
+      "publisher": "Life Corporation",
+      "retrieved_at_utc": "2026-10-20T01:14:48+00:00",
+      "retrieval_method": "ordinary anonymous HTTPS GET 200 and public web tool",
+      "direct_http_status": 200,
+      "facts_used": "Life Taiyuji grocery store: Osaka Kita-ku Nozakicho 8-1; groceries and daily goods",
+      "copyright_attribution": "Life Corporation; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "ordinary_get_checked_at_utc": "2026-10-20T01:14:48+00:00",
+      "retrieved_at_utc_note": "This timestamp is the ordinary GET check; full public web-tool facts were observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "NL1",
+      "url": "https://www.rncwonen.nl/en/node/2991",
+      "publisher": "RNC Wonen",
+      "retrieved_at_utc": "2026-10-20T01:14:50+00:00",
+      "retrieval_method": "ordinary anonymous HTTPS GET 200; web open failed, no access bypass used",
+      "direct_http_status": 200,
+      "facts_used": "Winkelstraat 15B; 55 sqm; ground floor furnished; one bedroom; maximum two people; EUR 1495/month exclusive, deposit 2990; advertised immediate; service-cost table EUR 0 versus text excluding service/utilities",
+      "copyright_attribution": "RNC Wonen; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "ordinary_get_checked_at_utc": "2026-10-20T01:14:50+00:00",
+      "retrieved_at_utc_note": "This timestamp is the ordinary GET check; full public web-tool facts were observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "NL2",
+      "url": "https://www.pararius.nl/appartement-te-huur/eindhoven/6ca915fa/winkelstraat",
+      "publisher": "Pararius / RNC Wonen",
+      "retrieved_at_utc": "2026-10-20T01:15:06Z",
+      "retrieval_method": "public web tool",
+      "direct_http_status": "not separately requested",
+      "facts_used": "Corroborates unit 15 B, 55 sqm, two rooms but one bedroom; 1495/month and 2990 deposit; offered since 2026-09-09; advertised to let",
+      "copyright_attribution": "Pararius / RNC Wonen; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "retrieved_at_utc_note": "Audit-record timestamp; web facts observed within facts_observed_utc_interval."
+    },
+    {
+      "id": "NL3",
+      "url": "https://www.ah.nl/winkels/nederland/eindhoven/roostenlaan-112/1077",
+      "publisher": "Albert Heijn",
+      "retrieved_at_utc": "2026-10-20T01:14:51+00:00",
+      "retrieval_method": "public web tool opened full text; separate ordinary GET returned 403 and was not bypassed",
+      "direct_http_status": "error",
+      "facts_used": "Named grocery store at Roostenlaan 112, 5644 GJ Eindhoven; no verified access time or current opening hours",
+      "copyright_attribution": "Albert Heijn; factual summary only; no photographs or full page reproduced",
+      "facts_observed_utc_interval": {
+        "start": "2026-10-20T01:12:00Z",
+        "end": "2026-10-20T01:15:06Z",
+        "precision": "audit browsing interval, not second-level web-tool fetch time"
+      },
+      "ordinary_get_checked_at_utc": "2026-10-20T01:14:51+00:00",
+      "retrieved_at_utc_note": "This timestamp is the ordinary GET check; full public web-tool facts were observed within facts_observed_utc_interval."
+    }
+  ],
+  "cases": [
+    {
+      "id": "cambridge-1558-unit21",
+      "location": "1558 Massachusetts Avenue, Unit 21, Cambridge MA 02138",
+      "evidence_level": "identifiable unit with publicly advertised offer; not independently confirmed vacant",
+      "question": "示例条件：一人在Harvard附近工作，2026-11-01入住，需独立卧室；住房含杂费月预算USD 3000、初始现金USD 6000。能否仅凭USD 2700月租判断付得起？",
+      "persona_is_example": true,
+      "budget": {
+        "currency": "USD",
+        "monthly_all_in_limit": 3000,
+        "available_initial_cash": 6000
+      },
+      "layout": {
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "area": 592,
+        "area_unit": "sqft",
+        "floor": null,
+        "room_dimensions": null,
+        "source": "US1"
+      },
+      "published_terms": {
+        "currency": "USD",
+        "rent_per_month": 2700,
+        "availability_claim": "2026-11-01",
+        "broker_fee_claim": "none",
+        "deposit": null,
+        "lease_term": null,
+        "utilities": null
+      },
+      "layout_fit": "独立卧室数量满足示例条件；未取得带尺寸平面图，不证明书桌、无障碍或两人远程办公适用性。",
+      "amenity": {
+        "name": "Harvard Square",
+        "kind": "commercial district",
+        "source": "US3",
+        "door_to_door_access_minutes": null
+      },
+      "decision": "先补证据，不推荐支付",
+      "reason": "基础租金低于示例全包上限，但杂费/水电/押金/签约到期金额未知；总预算状态unknown，不是met。",
+      "hard_states": {
+        "independent_bedroom": "met_on_listing",
+        "move_in": "advertised_not_confirmed",
+        "monthly_all_in": "unknown",
+        "initial_cash": "unknown"
+      },
+      "unknowns": [
+        "当前真实空置、可交付日期",
+        "押金与全部到期款、完整租约及水电计费",
+        "卧室尺寸/楼层/噪声/日照/实际状况",
+        "产权人、管理授权、合同相对方、收款人匹配"
+      ],
+      "questions": [
+        "请提供Unit 21带尺寸平面图与该单元现场查看依据。",
+        "请提供同一单元完整费用、到期日及租约。",
+        "签约人与收款人如何与业主授权对应？"
+      ],
+      "source_ids": [
+        "US1",
+        "US2",
+        "US3"
+      ]
+    },
+    {
+      "id": "osaka-axia-1105",
+      "location": "レジュールアッシュ梅田アクシア 1105; building catalog address 大阪市北区太融寺町3-30",
+      "evidence_level": "identifiable unit with publicly advertised offer; current occupancy not independently confirmed",
+      "question": "示例条件：一人在梅田工作，住房固定月支出上限JPY 100000，希望卧室与工作区分开。能否把敷金礼金为零理解为便宜且可马上交款？",
+      "persona_is_example": true,
+      "budget": {
+        "currency": "JPY",
+        "monthly_fixed_limit": 100000
+      },
+      "layout": {
+        "label": "2K",
+        "detail": "K2.5 / western rooms 4.1 and 6 jo",
+        "area": 31.77,
+        "area_unit": "sqm",
+        "floor": 11,
+        "source": "JP1"
+      },
+      "published_terms": {
+        "currency": "JPY",
+        "rent_per_month": 98000,
+        "common_charge_per_month": 12000,
+        "base_recurring_subtotal": 110000,
+        "guarantor_monthly_rate": "1% of total rent; basis needs quote",
+        "key_exchange": 33000,
+        "initial_guarantor": 33660,
+        "renewal_fee": 122500,
+        "term_years": 2,
+        "availability_claim": "immediate",
+        "listing_updated": "2026-10-15",
+        "next_update": "2026-10-29"
+      },
+      "layout_fit": "两间洋室为区分睡眠与工作提供可能，但不能凭2K标签认定两间都适合作独立卧室；门、采光和尺寸未核。",
+      "amenity": {
+        "name": "ライフ太融寺店",
+        "address": "大阪市北区野崎町8-1",
+        "source": "JP4",
+        "door_to_door_access_minutes": null
+      },
+      "decision": "不推荐此示例预算；暂停支付",
+      "reason": "98000+12000=110000 JPY，未算保证月费/保险/水电已超100000硬上限。零敷金礼金不等于零初始现金。",
+      "hard_states": {
+        "monthly_fixed": "unmet",
+        "layout_separation": "potential_not_fully_verified",
+        "initial_cash": "unknown"
+      },
+      "conflicts": [
+        "初回保証料33660与总租金110000的30%（33000）不一致，勿自行修正或推测隐藏费用。",
+        "旧10楼匿名1K页面与1105不是同一单元；旧摘要71500租金不能拼到31.77 sqm的1105。"
+      ],
+      "unknowns": [
+        "当前真实空置与准入",
+        "全额签约付款、保险金额、月保证费基数",
+        "更新费到期条件、退租清洁及提前解约条款",
+        "业主授权与收款人"
+      ],
+      "questions": [
+        "请逐项解释33660保证费的计费基数与月保证费。",
+        "2K各房间是否独立采光和通行，提供带尺寸平面图。",
+        "提供全部初始款、保险、更新及提前解约条款。"
+      ],
+      "source_ids": [
+        "JP1",
+        "JP2",
+        "JP3",
+        "JP4"
+      ]
+    },
+    {
+      "id": "eindhoven-winkelstraat15b",
+      "location": "Winkelstraat 15B, 5644 EK Eindhoven",
+      "evidence_level": "identifiable unit with publicly advertised offer; not independently confirmed vacant",
+      "question": "示例条件：两名同事希望分别有卧室，初始可用现金EUR 4000，按首月租金加押金准备。2 kamers是否代表两卧、现金是否够？",
+      "persona_is_example": true,
+      "budget": {
+        "currency": "EUR",
+        "available_initial_cash": 4000,
+        "required_independent_bedrooms": 2
+      },
+      "layout": {
+        "rooms": 2,
+        "bedrooms": 1,
+        "area": 55,
+        "area_unit": "sqm",
+        "floor": 0,
+        "furnished": true,
+        "published_max_people": 2,
+        "source": "NL1"
+      },
+      "published_terms": {
+        "currency": "EUR",
+        "rent_per_month": 1495,
+        "deposit": 2990,
+        "service_cost_table": 0,
+        "service_cost_text": "excluded together with utilities",
+        "availability_claim": "immediate",
+        "income_requirement": null,
+        "lease_term": null
+      },
+      "cash_scenario": {
+        "assumption": "Only if full deposit and first full month rent are both due at signing; not verified contractual timing",
+        "calculation": "2990 + 1495 = 4485",
+        "subtotal": 4485,
+        "shortfall_against_example_cash": 485,
+        "complete_signing_cost": false
+      },
+      "layout_fit": "一间卧室；2 kamers包括居住空间，不是两间卧室。最多2人不等于两位同事各有独立卧室。",
+      "amenity": {
+        "name": "Albert Heijn Roostenlaan 112",
+        "address": "Roostenlaan 112, 5644 GJ Eindhoven",
+        "source": "NL3",
+        "door_to_door_access_minutes": null
+      },
+      "decision": "不推荐此两卧需求；不推荐支付",
+      "reason": "公开一方Features仅1卧，已不满足示例两独立卧室硬条件；示例押金+首月情景还比现金高485。",
+      "hard_states": {
+        "two_independent_bedrooms": "unmet",
+        "initial_cash_scenario": "unmet_if_stated_timing_applies",
+        "actual_initial_cash_due": "unknown",
+        "availability": "advertised_not_confirmed"
+      },
+      "conflicts": [
+        "RNC描述排除servicekosten/nutsvoorzieningen，但Features service costs为0；需书面解释，不能擅自当全包。"
+      ],
+      "unknowns": [
+        "当前真实空置与申请接受",
+        "首次到期日、全部费用、能源用量/费用、合同期限和入住资格",
+        "收款人、业主授权、家具清单与退租费用",
+        "无障碍、门槛、噪声与卧室尺寸"
+      ],
+      "questions": [
+        "请确认1卧与最多2人的入住限制，是否接受两名非伴侣住客。",
+        "解释service costs为0与排除service费用的文案。",
+        "押金和首月何时到期？提供完整费用与租约。"
+      ],
+      "source_ids": [
+        "NL1",
+        "NL2",
+        "NL3"
+      ]
+    }
+  ],
+  "limitations": [
+    "Public listing assertions are not independent vacancy, title or payment-authority verification.",
+    "Amenity existence/address only; no verified door-to-door route time, opening hours or price.",
+    "No contact, login, payment, application or document submission; HTTP blocks respected.",
+    "No third-party photos, floorplans or complete pages mirrored."
+  ]
+}

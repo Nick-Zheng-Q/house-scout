@@ -1,0 +1,144 @@
+[
+  {
+    "currency": "USD",
+    "budgets": {
+      "monthly_max": 3000,
+      "signing_cash_max": 6000
+    },
+    "hard_requirements": [
+      "independent_bedroom",
+      "move_in"
+    ],
+    "candidates": [
+      {
+        "id": "cambridge-1558-unit21",
+        "conditions": {
+          "independent_bedroom": "met",
+          "move_in": "unknown"
+        },
+        "required_costs_complete": false,
+        "signing_costs_complete": false,
+        "costs": [
+          {
+            "name": "rent",
+            "kind": "recurring",
+            "amount": 2700
+          },
+          {
+            "name": "utilities",
+            "kind": "recurring",
+            "amount": null
+          },
+          {
+            "name": "broker fee",
+            "kind": "upfront",
+            "amount": 0
+          },
+          {
+            "name": "deposit",
+            "kind": "deposit",
+            "amount": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "currency": "JPY",
+    "budgets": {
+      "monthly_max": 100000
+    },
+    "hard_requirements": [
+      "monthly_fixed",
+      "layout_separation"
+    ],
+    "candidates": [
+      {
+        "id": "osaka-axia-1105",
+        "conditions": {
+          "monthly_fixed": "unmet",
+          "layout_separation": "unknown"
+        },
+        "required_costs_complete": false,
+        "signing_costs_complete": false,
+        "costs": [
+          {
+            "name": "rent",
+            "kind": "recurring",
+            "amount": 98000
+          },
+          {
+            "name": "common charge",
+            "kind": "recurring",
+            "amount": 12000
+          },
+          {
+            "name": "guarantor monthly",
+            "kind": "recurring",
+            "amount": null
+          },
+          {
+            "name": "key exchange",
+            "kind": "upfront",
+            "amount": 33000
+          },
+          {
+            "name": "initial guarantor",
+            "kind": "upfront",
+            "amount": 33660
+          },
+          {
+            "name": "deposit",
+            "kind": "deposit",
+            "amount": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "currency": "EUR",
+    "budgets": {
+      "monthly_max": 1700,
+      "signing_cash_max": 4000
+    },
+    "hard_requirements": [
+      "two_bedrooms",
+      "signing_cash"
+    ],
+    "candidates": [
+      {
+        "id": "eindhoven-winkelstraat15b",
+        "conditions": {
+          "two_bedrooms": "unmet",
+          "signing_cash": "unknown"
+        },
+        "required_costs_complete": false,
+        "signing_costs_complete": false,
+        "costs": [
+          {
+            "name": "rent",
+            "kind": "recurring",
+            "amount": 1495
+          },
+          {
+            "name": "utilities/services",
+            "kind": "recurring",
+            "amount": null
+          },
+          {
+            "name": "deposit",
+            "kind": "deposit",
+            "amount": 2990
+          },
+          {
+            "name": "other initial fees",
+            "kind": "upfront",
+            "amount": null
+          }
+        ]
+      }
+    ],
+    "scope": "Actual due-at-signing timing unknown; conditional deposit-plus-first-month arithmetic is separate."
+  }
+]

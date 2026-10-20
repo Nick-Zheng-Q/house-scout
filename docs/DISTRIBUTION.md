@@ -1,0 +1,9 @@
+# Distribution formats
+
+- GitHub v1.0.0: source-available research skill. Tag/release/public URL exist only after approval and successful publication.
+- Skills CLI: pin `skills@1.7.4` and the GitHub `tree/v1.0.0/skills/house-scout` subdirectory. Local discovery/copy and public GitHub install are separate tests. Leaderboard indexing/telemetry are not author-controlled approval; do not fake installs. `DISABLE_TELEMETRY=1` is used for our tests.
+- OpenAI: portable `plugin.json` with `skills/house-scout`; `extensions.com.openai.requires_local_executor=true`. No remote/local MCP server or hooks. Existing authorized browsing/maps and Python are host prerequisites, not services supplied by this ZIP. Skills-only is not the same as web-only; directory upload/scan/review/publish still needs verified developer access.
+- Claude Code: `.claude-plugin/plugin.json` and a GitHub marketplace catalogue. Install/strict validation in isolated temporary configuration do not establish Anthropic official-directory acceptance.
+- No package automatically creates accounts, buys services, retrieves credentials or activates telemetry. README publisher attribution is not an instruction to insert ads into housing answers.
+
+Primary docs checked2026-10-20: [OpenAI packaging](https://developers.openai.com/plugins/build/plugins), [desktop execution](https://developers.openai.com/plugins/deploy/desktop-only), [submission](https://developers.openai.com/plugins/deploy/submission), [advertising policy](https://developers.openai.com/plugins/plugin-guidelines), [Skills CLI](https://www.skills.sh/docs/cli), [Claude plugin reference](https://code.claude.com/docs/en/plugins-reference). These platform rules may change. Approval or validation must be reported from an actual result, never inferred from a JSON file.

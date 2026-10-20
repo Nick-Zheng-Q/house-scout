@@ -1,0 +1,16 @@
+{
+  "interface": {
+    "displayName": "House Scout"
+  },
+  "name": "house-scout-marketplace",
+  "plugins": [
+    {
+      "category": "Productivity",
+      "name": "house-scout",
+      "source": {
+        "path": "./plugins/house-scout",
+        "source": "local"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Dayweaver",
+    "url": "https://dayweaver.site/"
+  },
+  "description": "Research and compare specific homes: local listing searches, layout fit, declared costs, dated transit evidence and named amenities. Keep missing evidence explicit; no booking or payment. Requires host-authorized research tools and Python for bundled helpers.",
+  "homepage": "https://github.com/Nick-Zheng-Q/house-scout",
+  "keywords": [
+    "housing",
+    "rental",
+    "home-search",
+    "relocation",
+    "commute",
+    "decision-support"
+  ],
+  "license": "PolyForm-Shield-1.0.0",
+  "name": "house-scout",
+  "repository": "https://github.com/Nick-Zheng-Q/house-scout",
+  "version": "1.0.0"
+}
